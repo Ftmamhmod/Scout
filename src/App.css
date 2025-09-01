@@ -1,0 +1,22 @@
+body {
+  background-image: url("/src/assets/bg.svg"),
+    linear-gradient(45deg, rgba(27, 27, 29, 0.99), rgba(7, 7, 8, 0.99));
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+header {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.06);
+}
+.inner-border {
+  border-left: solid 2px rgba(255, 255, 255, 0.06);
+  border-right: solid 1px rgba(255, 255, 255, 0.06);
+}
+.outer-border {
+  border-left: solid 1px rgba(255, 255, 255, 0.06);
+  border-right: solid 1px rgba(255, 255, 255, 0.06);
+}
+.general-border {
+  border: solid 1px rgba(255, 255, 255, 0.06);
+}
