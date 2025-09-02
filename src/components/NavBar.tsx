@@ -6,7 +6,7 @@ const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="w-full absolute top-0 left-0 z-50 px-4 md:ps-36 md:pe-36 p-5">
+    <header className="w-full absolute top-0 left-0 z-50 px-4 md:ps-48 md:pe-48  p-5">
       <nav className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img src={logo} alt="Logo" className="w-fit" />

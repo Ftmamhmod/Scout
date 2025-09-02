@@ -12,9 +12,8 @@ const Pricing = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-3 w-full max-w-5xl mb-10">
         {/* Hobby */}
-
-        <div className="flex items-center mb-4">
-          <div className="flex-1 w-full bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
+        <div className="flex-1 w-full bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
+          <div className="flex items-center mb-4">
             <span className="bg-green-700 text-xs px-3 py-1 rounded-full font-semibold">
               HOBBY
             </span>

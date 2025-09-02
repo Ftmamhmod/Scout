@@ -162,11 +162,11 @@ const companiesBottom = [
 const Section = () => {
   return (
     <section className="w-full flex flex-col items-center justify-center  general-border">
-      <div className="grid grid-cols-4 md:grid-cols-6 opacity-60 mb-10 w-full general-border">
+      <div className="grid grid-cols-4 md:grid-cols-6 opacity-50 mb-10 w-full general-border">
         {companiesTop.map((company) => (
           <div
             key={company.name}
-            className="flex items-center justify-center h-20 opacity-60 general-border"
+            className="flex items-center justify-center h-20 opacity-70 general-border"
           >
             {company.logo}
           </div>
@@ -176,11 +176,11 @@ const Section = () => {
         Used by teams at Statsig, Deno, <br />
         Dagster, Evidence and more.
       </div>
-      <div className="grid grid-cols-4 md:grid-cols-6 w-full opacity-60 general-border">
+      <div className="grid grid-cols-4 md:grid-cols-6 w-full  general-border">
         {companiesBottom.map((company) => (
           <div
             key={company.name}
-            className="flex items-center justify-center h-20 opacity-70  general-border"
+            className="flex items-center justify-center h-20 opacity-50  general-border"
           >
             {company.logo}
           </div>
