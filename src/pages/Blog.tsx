@@ -4,7 +4,7 @@ import { FaBagShopping, FaElevator, FaMessage } from "react-icons/fa6";
 const Blog = () => {
   return (
     <div className="min-h-screen flex items-center justify-center py-8 md:py-16 general-border">
-      <div className="grid grid-cols-3 md:grid-cols-7 w-full general-border">
+      <div className="grid grid-cols-4 md:grid-cols-7 w-full general-border">
         {/* First column - hide on mobile */}
         <div className="hidden md:flex flex-col items-center justify-center general-border">
           <div className="w-full h-full flex items-center justify-center opacity-40">
@@ -32,8 +32,8 @@ const Blog = () => {
         </div>
 
         {/* Center content */}
-        <div className="col-span-1 md:col-span-3 flex flex-col items-center justify-center text-center px-2 md:px-4 py-4 md:py-8 general-border hover:opacity-100 transition-opacity duration-200">
-          <div className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-4 md:mb-8 leading-snug">
+        <div className="col-span-2 md:col-span-3 flex flex-col items-center justify-center text-center px-4 md:px-8 py-6 md:py-8 general-border hover:opacity-100 transition-opacity duration-200">
+          <div className="text-sm md:text-2xl lg:text-3xl font-medium text-white mb-4 md:mb-8 leading-snug">
             "Scout is an indispensable tool for our Engineering, DS and Sales
             teams to engage with our customers. We rely on Scout daily, making
             it an integral part of our operations."
