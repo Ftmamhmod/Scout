@@ -12,8 +12,9 @@ const Pricing = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-3 w-full max-w-5xl mb-10">
         {/* Hobby */}
-        <div className="flex-1 bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700  rounded-2xl p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
-          <div className="flex items-center mb-4">
+
+        <div className="flex items-center mb-4">
+          <div className="flex-1 w-full bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
             <span className="bg-green-700 text-xs px-3 py-1 rounded-full font-semibold">
               HOBBY
             </span>
@@ -35,7 +36,7 @@ const Pricing = () => {
           </ul>
         </div>
         {/* Pro */}
-        <div className="flex-1 bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B]  border border-gray-700  rounded-2xl p-8 shadow-lg flex flex-col relative hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
+        <div className="flex-1 w-full bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col relative hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
           <div className="absolute -top-5 left-1/2 -translate-x-1/2">
             <span className="bg-[#6d4aff] text-xs px-4 py-1 rounded-full font-semibold shadow">
               MOST POPULAR
@@ -63,7 +64,7 @@ const Pricing = () => {
           </ul>
         </div>
         {/* Enterprise */}
-        <div className="flex-1 bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B]  border border-gray-700  rounded-2xl p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
+        <div className="flex-1 w-full bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
           <div className="flex items-center mb-4">
             <span className="bg-blue-900 text-xs px-3 py-1 rounded-full font-semibold">
               ENTERPRISE
@@ -87,8 +88,8 @@ const Pricing = () => {
         </div>
       </div>
       {/* Dedicated Support & Add On */}
-      <div className="flex flex-col md:flex-row rounded-2xl w-full max-w-5xl bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B]  border border-gray-700  hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
-        <div className="w-3/4  bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] rounded-s-2xl p-8 shadow-lg border border-gray-700 ">
+      <div className="flex flex-col md:flex-row rounded-2xl w-full max-w-5xl bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] border border-gray-700 hover:bg-gradient-to-br hover:from-[#C38CF533] hover:to-[#1A1A1A33] hover:scale-105 transition-all duration-100">
+        <div className="w-full md:w-3/4 bg-gradient-to-br from-[#1B1B1B00] to-[#1B1B1B] rounded-t-2xl md:rounded-s-2xl p-6 md:p-8 shadow-lg border border-gray-700 ">
           <div className="text-xl font-semibold mb-2">Dedicated Support</div>
           <div className="text-gray-400 mb-4">
             We are here to help get you started with a dedicated support
@@ -103,7 +104,7 @@ const Pricing = () => {
             <div>Context Sourcing Guidance</div>
           </div>
         </div>
-        <div className=" w-1/4 text-center  bg-gradient-to-br from-[#2d2340] to-[#23242b] rounded-e-2xl p-8 shadow-lg flex flex-col justify-between  ">
+        <div className="w-full md:w-1/4 text-center bg-gradient-to-br from-[#2d2340] to-[#23242b] rounded-b-2xl md:rounded-e-2xl p-6 md:p-8 shadow-lg flex flex-col justify-between">
           <div>
             <div className="flex items-center mb-4">
               <span className="bg-[#C38CF533] text-xs px-3 py-1 rounded-full font-semibold ">

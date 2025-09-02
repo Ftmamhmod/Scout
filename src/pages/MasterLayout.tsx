@@ -10,72 +10,23 @@ import { motion } from "framer-motion";
 const MasterLayout = () => {
   return (
     <>
-      <div className="pe-10 ps-10">
-        <div className="outer-border ps-36  pe-36 ">
-          <div className="inner-border flex flex-col gap-20 items-center justify-center ">
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Home />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Features />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Section />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Pricing />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Docs />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Blog />
-            </motion.section>
-            <motion.section
-              className="w-full mb-10"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Footer />
-            </motion.section>
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-4 md:px-8">
+        <div className="outer-border w-full max-w-7xl mx-auto">
+          <div className="inner-border flex flex-col gap-8 md:gap-16 items-center justify-center w-full">
+            {[Home, Features, Section, Docs, Blog, Pricing, Footer].map(
+              (Component, index) => (
+                <motion.section
+                  key={index}
+                  className="w-full mb-5 md:mb-10"
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                >
+                  <Component />
+                </motion.section>
+              )
+            )}
           </div>
         </div>
       </div>
