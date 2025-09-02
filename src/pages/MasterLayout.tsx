@@ -11,7 +11,7 @@ const MasterLayout = () => {
   return (
     <>
       <div className="w-full mx-auto px-2 sm:px-4 md:px-6 ">
-        <div className="outer-border w-full max-w-7xl mx-auto ps-20 pe-20">
+        <div className="outer-border w-full max-w-7xl mx-auto md:ps-20 md:pe-20 ps-0 pe-0">
           <div className="inner-border flex flex-col gap-8 md:gap-16 items-center justify-center w-full ">
             {[Home, Features, Section, Docs, Blog, Pricing, Footer].map(
               (Component, index) => (
